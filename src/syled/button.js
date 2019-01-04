@@ -11,3 +11,8 @@ export const MainButtonOption = styled.div`
     margin: 30px;
     color: black;
 `
+export const GoBackButton = styled.div`
+
+    background-color: red;
+
+`

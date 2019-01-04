@@ -1,2 +1,2 @@
-export { batteryServices } from './batteryService'
+export { batteryServices, batterySelectClass } from './batteryService'
 export { getWifiConection } from './wifiService'

@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid, Row, Col} from 'react-bootstrap'
 import { MainButtonOption} from './../syled'
 export const Home = props=>{
-    const handleClick = (e)=> props.history.replace(e.target.id)
+    const handleClick = (e)=> props.history.push(e.target.id)
     return(
         <Grid>
             <Row>
