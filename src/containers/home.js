@@ -17,8 +17,8 @@ export const Home = props=>{
                     </MainButtonOption>
                 </Col>
                 <Col xs={4}>
-                    <MainButtonOption id="" name="luces" onClick={handleClick}>
-                        hi  
+                    <MainButtonOption id="acciones" name="Acciones" onClick={handleClick}>
+                        Acciones  
                     </MainButtonOption>
                 </Col>
                 <Col xs={4}>
