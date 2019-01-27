@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { Grid, Row, Col } from 'react-bootstrap'
 import { withRouter } from 'react-router-dom';
-import { batteryServices, batterySelectClass} from './../../services'
+import { batteryServices, batterySelectClass, getWifiConection} from './../../services'
 import { GoBackButton } from '../../syled';
 
 const Battery = (props)=>{

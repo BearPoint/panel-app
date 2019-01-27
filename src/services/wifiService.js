@@ -1,10 +1,14 @@
-// const wifi = require('node-wifi');
+// var wifi = require('wifi-control');
+// // const wifi = require('node-o');
 
 // wifi.init({
-//     iface: null // network interface, choose a random wifi interface if set to null
+//     debug: true
 // });
-
 // export const getWifiConection = () => {
+//     wifi.scanForWiFi( function(err, response) {
+//         if (err) console.log(err);
+//         console.log(response);
+//     });
 //     return wifi.getCurrentConnections( (err, currentConnections) =>{
 //         if (err) {
 //             console.log(err);
